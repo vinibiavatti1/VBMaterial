@@ -1,0 +1,231 @@
+/* line 1, ../../sass/utils/depth.scss */
+.depth-0 { -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
+
+/* line 7, ../../sass/utils/depth.scss */
+.depth-1, .card, .card-large, .card-horizontal, .card-horizontal-large, .card-panel { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+/* line 12, ../../sass/utils/depth.scss */
+.depth-2 { box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+/* line 17, ../../sass/utils/depth.scss */
+.depth-3 { box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+/* line 22, ../../sass/utils/depth.scss */
+.depth-4 { box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+/* line 27, ../../sass/utils/depth.scss */
+.depth-5 { box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+/* line 32, ../../sass/utils/depth.scss */
+.depth-1-transition:hover { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+/* line 36, ../../sass/utils/depth.scss */
+.depth-2-transition:hover, .card:hover, .card-large:hover, .card-horizontal:hover, .card-horizontal-large:hover { box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+/* line 40, ../../sass/utils/depth.scss */
+.depth-3-transition:hover { box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+/* line 44, ../../sass/utils/depth.scss */
+.depth-4-transition:hover { box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+/* line 48, ../../sass/utils/depth.scss */
+.depth-5-transition:hover { box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
+/* line 146, ../../sass/components/card.scss */
+.card { background-color: white; border-radius: 4px; position: relative; margin: 4px; }
+/* line 32, ../../sass/components/card.scss */
+.card .card-image { display: block; width: 100%; position: relative; }
+/* line 36, ../../sass/components/card.scss */
+.card .card-image img { object-fit: cover; width: 100%; }
+/* line 40, ../../sass/components/card.scss */
+.card .card-image .card-title { position: absolute; bottom: 16px; left: 16px; font-size: 24px; color: white; }
+/* line 48, ../../sass/components/card.scss */
+.card .card-content { display: block; padding: 16px; line-height: 1.3; }
+/* line 52, ../../sass/components/card.scss */
+.card .card-content p { font-weight: 500; font-size: 14px; color: #757575; }
+/* line 57, ../../sass/components/card.scss */
+.card .card-content .card-title { display: block; color: #424242; font-size: 24px; margin-bottom: 16px; }
+/* line 64, ../../sass/components/card.scss */
+.card .card-actions { display: block; padding: 10px 10px; border-top: 1px solid #E0E0E0; }
+/* line 68, ../../sass/components/card.scss */
+.card .card-actions a, .card .card-actions button { margin-bottom: 0px; }
+/* line 72, ../../sass/components/card.scss */
+.card .card-actions .card-link { min-width: 48px; height: 33px; color: #6202EE; line-height: 33px; text-transform: uppercase; padding: 0px 6px; font-weight: 500; }
+/* line 82, ../../sass/components/card.scss */
+.card .card-header { padding: 16px; }
+/* line 84, ../../sass/components/card.scss */
+.card .card-header .card-title { color: #424242; font-size: 24px; margin-bottom: 0px; }
+/* line 89, ../../sass/components/card.scss */
+.card .card-header .card-subtitle { font-weight: 500; font-size: 14px; color: #757575; }
+/* line 94, ../../sass/components/card.scss */
+.card .card-header .card-avatar { float: left; margin-right: 16px; }
+/* line 97, ../../sass/components/card.scss */
+.card .card-header .card-avatar img { width: 44px; height: 44px; }
+/* line 103, ../../sass/components/card.scss */
+.card .card-content-header { margin-bottom: 16px; }
+/* line 105, ../../sass/components/card.scss */
+.card .card-content-header .card-title { margin-bottom: 0px; }
+/* line 108, ../../sass/components/card.scss */
+.card .card-content-header .card-subtitle { font-weight: 500; font-size: 14px; color: #757575; }
+/* line 113, ../../sass/components/card.scss */
+.card .card-content-header .card-avatar { float: left; margin-right: 16px; }
+/* line 116, ../../sass/components/card.scss */
+.card .card-content-header .card-avatar img { margin-top: 4px; width: 44px; height: 44px; }
+/* line 123, ../../sass/components/card.scss */
+.card .card-horizontal-image { overflow: hidden; min-width: 230px; }
+/* line 127, ../../sass/components/card.scss */
+.card .card-horizontal-image .card-title { position: absolute; bottom: 16px; left: 16px; font-size: 24px; color: white; }
+/* line 135, ../../sass/components/card.scss */
+.card .card-stacked { display: flex; flex-direction: column; flex: 1; position: relative; }
+/* line 140, ../../sass/components/card.scss */
+.card .card-stacked .card-content { flex-grow: 1; }
+
+/* line 150, ../../sass/components/card.scss */
+.card-large { background-color: white; border-radius: 4px; position: relative; margin: 4px; }
+/* line 32, ../../sass/components/card.scss */
+.card-large .card-image { display: block; width: 100%; position: relative; }
+/* line 36, ../../sass/components/card.scss */
+.card-large .card-image img { object-fit: cover; width: 100%; }
+/* line 40, ../../sass/components/card.scss */
+.card-large .card-image .card-title { position: absolute; bottom: 20px; left: 20px; font-size: 24px; color: white; }
+/* line 48, ../../sass/components/card.scss */
+.card-large .card-content { display: block; padding: 20px; line-height: 1.6; }
+/* line 52, ../../sass/components/card.scss */
+.card-large .card-content p { font-weight: 400; font-size: medium; color: #616161; }
+/* line 57, ../../sass/components/card.scss */
+.card-large .card-content .card-title { display: block; color: #424242; font-size: 24px; margin-bottom: 16px; }
+/* line 64, ../../sass/components/card.scss */
+.card-large .card-actions { display: block; padding: 16px 20px; border-top: 1px solid #E0E0E0; }
+/* line 68, ../../sass/components/card.scss */
+.card-large .card-actions a, .card-large .card-actions button { margin-bottom: 0px; }
+/* line 72, ../../sass/components/card.scss */
+.card-large .card-actions .card-link { min-width: 48px; height: 33px; color: #6202EE; line-height: 33px; text-transform: uppercase; padding: 0px 6px; font-weight: 500; }
+/* line 82, ../../sass/components/card.scss */
+.card-large .card-header { padding: 20px; }
+/* line 84, ../../sass/components/card.scss */
+.card-large .card-header .card-title { color: #424242; font-size: 24px; margin-bottom: 0px; }
+/* line 89, ../../sass/components/card.scss */
+.card-large .card-header .card-subtitle { font-weight: 400; font-size: medium; color: #757575; }
+/* line 94, ../../sass/components/card.scss */
+.card-large .card-header .card-avatar { float: left; margin-right: 20px; }
+/* line 97, ../../sass/components/card.scss */
+.card-large .card-header .card-avatar img { width: 50px; height: 50px; }
+/* line 103, ../../sass/components/card.scss */
+.card-large .card-content-header { margin-bottom: 20px; }
+/* line 105, ../../sass/components/card.scss */
+.card-large .card-content-header .card-title { margin-bottom: 0px; }
+/* line 108, ../../sass/components/card.scss */
+.card-large .card-content-header .card-subtitle { font-weight: 400; font-size: medium; color: #757575; }
+/* line 113, ../../sass/components/card.scss */
+.card-large .card-content-header .card-avatar { float: left; margin-right: 20px; }
+/* line 116, ../../sass/components/card.scss */
+.card-large .card-content-header .card-avatar img { margin-top: 10px; width: 50px; height: 50px; }
+/* line 123, ../../sass/components/card.scss */
+.card-large .card-horizontal-image { overflow: hidden; min-width: 230px; }
+/* line 127, ../../sass/components/card.scss */
+.card-large .card-horizontal-image .card-title { position: absolute; bottom: 20px; left: 20px; font-size: 24px; color: white; }
+/* line 135, ../../sass/components/card.scss */
+.card-large .card-stacked { display: flex; flex-direction: column; flex: 1; position: relative; }
+/* line 140, ../../sass/components/card.scss */
+.card-large .card-stacked .card-content { flex-grow: 1; }
+
+/* line 154, ../../sass/components/card.scss */
+.card-horizontal { background-color: white; border-radius: 4px; position: relative; margin: 4px; display: flex; }
+/* line 32, ../../sass/components/card.scss */
+.card-horizontal .card-image { display: block; width: 100%; position: relative; }
+/* line 36, ../../sass/components/card.scss */
+.card-horizontal .card-image img { object-fit: cover; width: 100%; }
+/* line 40, ../../sass/components/card.scss */
+.card-horizontal .card-image .card-title { position: absolute; bottom: 16px; left: 16px; font-size: 24px; color: white; }
+/* line 48, ../../sass/components/card.scss */
+.card-horizontal .card-content { display: block; padding: 16px; line-height: 1.3; }
+/* line 52, ../../sass/components/card.scss */
+.card-horizontal .card-content p { font-weight: 500; font-size: 14px; color: #757575; }
+/* line 57, ../../sass/components/card.scss */
+.card-horizontal .card-content .card-title { display: block; color: #424242; font-size: 24px; margin-bottom: 16px; }
+/* line 64, ../../sass/components/card.scss */
+.card-horizontal .card-actions { display: block; padding: 10px 10px; border-top: 1px solid #E0E0E0; }
+/* line 68, ../../sass/components/card.scss */
+.card-horizontal .card-actions a, .card-horizontal .card-actions button { margin-bottom: 0px; }
+/* line 72, ../../sass/components/card.scss */
+.card-horizontal .card-actions .card-link { min-width: 48px; height: 33px; color: #6202EE; line-height: 33px; text-transform: uppercase; padding: 0px 6px; font-weight: 500; }
+/* line 82, ../../sass/components/card.scss */
+.card-horizontal .card-header { padding: 16px; }
+/* line 84, ../../sass/components/card.scss */
+.card-horizontal .card-header .card-title { color: #424242; font-size: 24px; margin-bottom: 0px; }
+/* line 89, ../../sass/components/card.scss */
+.card-horizontal .card-header .card-subtitle { font-weight: 500; font-size: 14px; color: #757575; }
+/* line 94, ../../sass/components/card.scss */
+.card-horizontal .card-header .card-avatar { float: left; margin-right: 16px; }
+/* line 97, ../../sass/components/card.scss */
+.card-horizontal .card-header .card-avatar img { width: 44px; height: 44px; }
+/* line 103, ../../sass/components/card.scss */
+.card-horizontal .card-content-header { margin-bottom: 16px; }
+/* line 105, ../../sass/components/card.scss */
+.card-horizontal .card-content-header .card-title { margin-bottom: 0px; }
+/* line 108, ../../sass/components/card.scss */
+.card-horizontal .card-content-header .card-subtitle { font-weight: 500; font-size: 14px; color: #757575; }
+/* line 113, ../../sass/components/card.scss */
+.card-horizontal .card-content-header .card-avatar { float: left; margin-right: 16px; }
+/* line 116, ../../sass/components/card.scss */
+.card-horizontal .card-content-header .card-avatar img { margin-top: 4px; width: 44px; height: 44px; }
+/* line 123, ../../sass/components/card.scss */
+.card-horizontal .card-horizontal-image { overflow: hidden; min-width: 230px; }
+/* line 127, ../../sass/components/card.scss */
+.card-horizontal .card-horizontal-image .card-title { position: absolute; bottom: 16px; left: 16px; font-size: 24px; color: white; }
+/* line 135, ../../sass/components/card.scss */
+.card-horizontal .card-stacked { display: flex; flex-direction: column; flex: 1; position: relative; }
+/* line 140, ../../sass/components/card.scss */
+.card-horizontal .card-stacked .card-content { flex-grow: 1; }
+
+/* line 159, ../../sass/components/card.scss */
+.card-horizontal-large { background-color: white; border-radius: 4px; position: relative; margin: 4px; display: flex; }
+/* line 32, ../../sass/components/card.scss */
+.card-horizontal-large .card-image { display: block; width: 100%; position: relative; }
+/* line 36, ../../sass/components/card.scss */
+.card-horizontal-large .card-image img { object-fit: cover; width: 100%; }
+/* line 40, ../../sass/components/card.scss */
+.card-horizontal-large .card-image .card-title { position: absolute; bottom: 20px; left: 20px; font-size: 24px; color: white; }
+/* line 48, ../../sass/components/card.scss */
+.card-horizontal-large .card-content { display: block; padding: 20px; line-height: 1.6; }
+/* line 52, ../../sass/components/card.scss */
+.card-horizontal-large .card-content p { font-weight: 400; font-size: medium; color: #616161; }
+/* line 57, ../../sass/components/card.scss */
+.card-horizontal-large .card-content .card-title { display: block; color: #424242; font-size: 24px; margin-bottom: 16px; }
+/* line 64, ../../sass/components/card.scss */
+.card-horizontal-large .card-actions { display: block; padding: 16px 20px; border-top: 1px solid #E0E0E0; }
+/* line 68, ../../sass/components/card.scss */
+.card-horizontal-large .card-actions a, .card-horizontal-large .card-actions button { margin-bottom: 0px; }
+/* line 72, ../../sass/components/card.scss */
+.card-horizontal-large .card-actions .card-link { min-width: 48px; height: 33px; color: #6202EE; line-height: 33px; text-transform: uppercase; padding: 0px 6px; font-weight: 500; }
+/* line 82, ../../sass/components/card.scss */
+.card-horizontal-large .card-header { padding: 20px; }
+/* line 84, ../../sass/components/card.scss */
+.card-horizontal-large .card-header .card-title { color: #424242; font-size: 24px; margin-bottom: 0px; }
+/* line 89, ../../sass/components/card.scss */
+.card-horizontal-large .card-header .card-subtitle { font-weight: 400; font-size: medium; color: #757575; }
+/* line 94, ../../sass/components/card.scss */
+.card-horizontal-large .card-header .card-avatar { float: left; margin-right: 20px; }
+/* line 97, ../../sass/components/card.scss */
+.card-horizontal-large .card-header .card-avatar img { width: 50px; height: 50px; }
+/* line 103, ../../sass/components/card.scss */
+.card-horizontal-large .card-content-header { margin-bottom: 20px; }
+/* line 105, ../../sass/components/card.scss */
+.card-horizontal-large .card-content-header .card-title { margin-bottom: 0px; }
+/* line 108, ../../sass/components/card.scss */
+.card-horizontal-large .card-content-header .card-subtitle { font-weight: 400; font-size: medium; color: #757575; }
+/* line 113, ../../sass/components/card.scss */
+.card-horizontal-large .card-content-header .card-avatar { float: left; margin-right: 20px; }
+/* line 116, ../../sass/components/card.scss */
+.card-horizontal-large .card-content-header .card-avatar img { margin-top: 10px; width: 50px; height: 50px; }
+/* line 123, ../../sass/components/card.scss */
+.card-horizontal-large .card-horizontal-image { overflow: hidden; min-width: 230px; }
+/* line 127, ../../sass/components/card.scss */
+.card-horizontal-large .card-horizontal-image .card-title { position: absolute; bottom: 20px; left: 20px; font-size: 24px; color: white; }
+/* line 135, ../../sass/components/card.scss */
+.card-horizontal-large .card-stacked { display: flex; flex-direction: column; flex: 1; position: relative; }
+/* line 140, ../../sass/components/card.scss */
+.card-horizontal-large .card-stacked .card-content { flex-grow: 1; }
+
+/* line 164, ../../sass/components/card.scss */
+.card-panel { background-color: white; padding: 16px; border-radius: 4px; }

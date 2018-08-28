@@ -1,0 +1,105 @@
+@import 'variables';
+
+// Html
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+main {
+    padding: 16px;
+}
+
+p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+}
+
+body {
+    font-family: $font-stack;
+    margin: 0px;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid $primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+    {
+    margin: 0px;
+    font-weight: 400;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 0;
+    list-style-type: none;
+    &>li {
+        list-style-type: none;
+    }
+}
+
+// Display
+.hide {
+    display: none !important;
+}
+
+// Aligns
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right
+}
+
+.center,
+.center-align {
+    text-align: center;
+}
+
+// Commons
+.circle {
+    border-radius: 50%;
+}
+
+.divider,
+.separator {
+    height: 1px;
+    overflow: hidden;
+    background-color: #E0E0E0;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+// Scroolbar
+.scroll {
+    ::-webkit-scrollbar-track {
+        background-color: #F5F5F5;
+    }
+    ::-webkit-scrollbar {
+        width: 8px;
+        background: #F5F5F5;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #E0E0E0;
+    }
+}

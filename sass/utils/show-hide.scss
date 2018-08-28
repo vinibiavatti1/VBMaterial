@@ -1,0 +1,75 @@
+@import 'variables';
+
+// Hides
+.hide-small {
+    @media #{$small-and-down} {
+        display: none !important;
+    }
+}
+
+.hide-medium {
+    @media only screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+        display: none !important;
+    }
+}
+
+.hide-large {
+    @media #{$large-and-up} {
+        display: none !important;
+    }
+}
+
+.hide-extra-large {
+    @media #{$extra-large-and-up} {
+        display: none !important;
+    }
+}
+
+.hide-medium-small {
+    @media #{$medium-and-down} {
+        display: none !important;
+    }
+}
+
+.hide-medium-large {
+    @media #{$medium-and-up} {
+        display: none !important;
+    }
+}
+
+// Shows
+.show-small {
+    @media #{$small-and-down} {
+        display: block !important;
+    }
+}
+
+.show-medium {
+    @media only screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+        display: block !important;
+    }
+}
+
+.show-large {
+    @media #{$large-and-up} {
+        display: block !important;
+    }
+}
+
+.show-extra-large {
+    @media #{$extra-large-and-up} {
+        display: block !important;
+    }
+}
+
+.show-medium-large {
+    @media #{$medium-and-up} {
+        display: block !important;
+    }
+}
+
+.show-medium-small {
+    @media #{$medium-and-down} {
+        display: block !important;
+    }
+}

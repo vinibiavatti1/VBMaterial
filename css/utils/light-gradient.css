@@ -1,0 +1,1025 @@
+/* line 1, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-pink { background: linear-gradient(to bottom right, #EF5350, #EC407A) !important; }
+
+/* line 2, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-purple { background: linear-gradient(to bottom right, #EF5350, #AB47BC) !important; }
+
+/* line 3, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-deep-purple { background: linear-gradient(to bottom right, #EF5350, #7E57C2) !important; }
+
+/* line 4, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-indigo { background: linear-gradient(to bottom right, #EF5350, #5C6BC0) !important; }
+
+/* line 5, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-blue { background: linear-gradient(to bottom right, #EF5350, #42A5F5) !important; }
+
+/* line 6, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-light-blue { background: linear-gradient(to bottom right, #EF5350, #29B6F6) !important; }
+
+/* line 7, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-cyan { background: linear-gradient(to bottom right, #EF5350, #26C6DA) !important; }
+
+/* line 8, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-teal { background: linear-gradient(to bottom right, #EF5350, #26A69A) !important; }
+
+/* line 9, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-green { background: linear-gradient(to bottom right, #EF5350, #66BB6A) !important; }
+
+/* line 10, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-light-green { background: linear-gradient(to bottom right, #EF5350, #9CCC65) !important; }
+
+/* line 11, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-lime { background: linear-gradient(to bottom right, #EF5350, #D4E157) !important; }
+
+/* line 12, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-yellow { background: linear-gradient(to bottom right, #EF5350, #FFEE58) !important; }
+
+/* line 13, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-amber { background: linear-gradient(to bottom right, #EF5350, #FFCA28) !important; }
+
+/* line 14, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-orange { background: linear-gradient(to bottom right, #EF5350, #FFA726) !important; }
+
+/* line 15, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-deep-orange { background: linear-gradient(to bottom right, #EF5350, #FF7043) !important; }
+
+/* line 16, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-brown { background: linear-gradient(to bottom right, #EF5350, #8D6E63) !important; }
+
+/* line 17, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-gray { background: linear-gradient(to bottom right, #EF5350, #BDBDBD) !important; }
+
+/* line 18, ../../sass/utils/light-gradient.scss */
+.light-gradient-red-blue-gray { background: linear-gradient(to bottom right, #EF5350, #78909C) !important; }
+
+/* line 19, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-red { background: linear-gradient(to bottom right, #EC407A, #EF5350) !important; }
+
+/* line 20, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-purple { background: linear-gradient(to bottom right, #EC407A, #AB47BC) !important; }
+
+/* line 21, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-deep-purple { background: linear-gradient(to bottom right, #EC407A, #7E57C2) !important; }
+
+/* line 22, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-indigo { background: linear-gradient(to bottom right, #EC407A, #5C6BC0) !important; }
+
+/* line 23, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-blue { background: linear-gradient(to bottom right, #EC407A, #42A5F5) !important; }
+
+/* line 24, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-light-blue { background: linear-gradient(to bottom right, #EC407A, #29B6F6) !important; }
+
+/* line 25, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-cyan { background: linear-gradient(to bottom right, #EC407A, #26C6DA) !important; }
+
+/* line 26, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-teal { background: linear-gradient(to bottom right, #EC407A, #26A69A) !important; }
+
+/* line 27, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-green { background: linear-gradient(to bottom right, #EC407A, #66BB6A) !important; }
+
+/* line 28, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-light-green { background: linear-gradient(to bottom right, #EC407A, #9CCC65) !important; }
+
+/* line 29, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-lime { background: linear-gradient(to bottom right, #EC407A, #D4E157) !important; }
+
+/* line 30, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-yellow { background: linear-gradient(to bottom right, #EC407A, #FFEE58) !important; }
+
+/* line 31, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-amber { background: linear-gradient(to bottom right, #EC407A, #FFCA28) !important; }
+
+/* line 32, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-orange { background: linear-gradient(to bottom right, #EC407A, #FFA726) !important; }
+
+/* line 33, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-deep-orange { background: linear-gradient(to bottom right, #EC407A, #FF7043) !important; }
+
+/* line 34, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-brown { background: linear-gradient(to bottom right, #EC407A, #8D6E63) !important; }
+
+/* line 35, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-gray { background: linear-gradient(to bottom right, #EC407A, #BDBDBD) !important; }
+
+/* line 36, ../../sass/utils/light-gradient.scss */
+.light-gradient-pink-blue-gray { background: linear-gradient(to bottom right, #EC407A, #78909C) !important; }
+
+/* line 37, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-red { background: linear-gradient(to bottom right, #AB47BC, #EF5350) !important; }
+
+/* line 38, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-pink { background: linear-gradient(to bottom right, #AB47BC, #EC407A) !important; }
+
+/* line 39, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-deep-purple { background: linear-gradient(to bottom right, #AB47BC, #7E57C2) !important; }
+
+/* line 40, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-indigo { background: linear-gradient(to bottom right, #AB47BC, #5C6BC0) !important; }
+
+/* line 41, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-blue { background: linear-gradient(to bottom right, #AB47BC, #42A5F5) !important; }
+
+/* line 42, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-light-blue { background: linear-gradient(to bottom right, #AB47BC, #29B6F6) !important; }
+
+/* line 43, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-cyan { background: linear-gradient(to bottom right, #AB47BC, #26C6DA) !important; }
+
+/* line 44, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-teal { background: linear-gradient(to bottom right, #AB47BC, #26A69A) !important; }
+
+/* line 45, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-green { background: linear-gradient(to bottom right, #AB47BC, #66BB6A) !important; }
+
+/* line 46, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-light-green { background: linear-gradient(to bottom right, #AB47BC, #9CCC65) !important; }
+
+/* line 47, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-lime { background: linear-gradient(to bottom right, #AB47BC, #D4E157) !important; }
+
+/* line 48, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-yellow { background: linear-gradient(to bottom right, #AB47BC, #FFEE58) !important; }
+
+/* line 49, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-amber { background: linear-gradient(to bottom right, #AB47BC, #FFCA28) !important; }
+
+/* line 50, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-orange { background: linear-gradient(to bottom right, #AB47BC, #FFA726) !important; }
+
+/* line 51, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-deep-orange { background: linear-gradient(to bottom right, #AB47BC, #FF7043) !important; }
+
+/* line 52, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-brown { background: linear-gradient(to bottom right, #AB47BC, #8D6E63) !important; }
+
+/* line 53, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-gray { background: linear-gradient(to bottom right, #AB47BC, #BDBDBD) !important; }
+
+/* line 54, ../../sass/utils/light-gradient.scss */
+.light-gradient-purple-blue-gray { background: linear-gradient(to bottom right, #AB47BC, #78909C) !important; }
+
+/* line 55, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-red { background: linear-gradient(to bottom right, #7E57C2, #EF5350) !important; }
+
+/* line 56, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-pink { background: linear-gradient(to bottom right, #7E57C2, #EC407A) !important; }
+
+/* line 57, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-purple { background: linear-gradient(to bottom right, #7E57C2, #AB47BC) !important; }
+
+/* line 58, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-indigo { background: linear-gradient(to bottom right, #7E57C2, #5C6BC0) !important; }
+
+/* line 59, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-blue { background: linear-gradient(to bottom right, #7E57C2, #42A5F5) !important; }
+
+/* line 60, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-light-blue { background: linear-gradient(to bottom right, #7E57C2, #29B6F6) !important; }
+
+/* line 61, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-cyan { background: linear-gradient(to bottom right, #7E57C2, #26C6DA) !important; }
+
+/* line 62, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-teal { background: linear-gradient(to bottom right, #7E57C2, #26A69A) !important; }
+
+/* line 63, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-green { background: linear-gradient(to bottom right, #7E57C2, #66BB6A) !important; }
+
+/* line 64, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-light-green { background: linear-gradient(to bottom right, #7E57C2, #9CCC65) !important; }
+
+/* line 65, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-lime { background: linear-gradient(to bottom right, #7E57C2, #D4E157) !important; }
+
+/* line 66, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-yellow { background: linear-gradient(to bottom right, #7E57C2, #FFEE58) !important; }
+
+/* line 67, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-amber { background: linear-gradient(to bottom right, #7E57C2, #FFCA28) !important; }
+
+/* line 68, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-orange { background: linear-gradient(to bottom right, #7E57C2, #FFA726) !important; }
+
+/* line 69, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-deep-orange { background: linear-gradient(to bottom right, #7E57C2, #FF7043) !important; }
+
+/* line 70, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-brown { background: linear-gradient(to bottom right, #7E57C2, #8D6E63) !important; }
+
+/* line 71, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-gray { background: linear-gradient(to bottom right, #7E57C2, #BDBDBD) !important; }
+
+/* line 72, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-purple-blue-gray { background: linear-gradient(to bottom right, #7E57C2, #78909C) !important; }
+
+/* line 73, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-red { background: linear-gradient(to bottom right, #5C6BC0, #EF5350) !important; }
+
+/* line 74, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-pink { background: linear-gradient(to bottom right, #5C6BC0, #EC407A) !important; }
+
+/* line 75, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-purple { background: linear-gradient(to bottom right, #5C6BC0, #AB47BC) !important; }
+
+/* line 76, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-deep-purple { background: linear-gradient(to bottom right, #5C6BC0, #7E57C2) !important; }
+
+/* line 77, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-blue { background: linear-gradient(to bottom right, #5C6BC0, #42A5F5) !important; }
+
+/* line 78, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-light-blue { background: linear-gradient(to bottom right, #5C6BC0, #29B6F6) !important; }
+
+/* line 79, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-cyan { background: linear-gradient(to bottom right, #5C6BC0, #26C6DA) !important; }
+
+/* line 80, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-teal { background: linear-gradient(to bottom right, #5C6BC0, #26A69A) !important; }
+
+/* line 81, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-green { background: linear-gradient(to bottom right, #5C6BC0, #66BB6A) !important; }
+
+/* line 82, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-light-green { background: linear-gradient(to bottom right, #5C6BC0, #9CCC65) !important; }
+
+/* line 83, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-lime { background: linear-gradient(to bottom right, #5C6BC0, #D4E157) !important; }
+
+/* line 84, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-yellow { background: linear-gradient(to bottom right, #5C6BC0, #FFEE58) !important; }
+
+/* line 85, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-amber { background: linear-gradient(to bottom right, #5C6BC0, #FFCA28) !important; }
+
+/* line 86, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-orange { background: linear-gradient(to bottom right, #5C6BC0, #FFA726) !important; }
+
+/* line 87, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-deep-orange { background: linear-gradient(to bottom right, #5C6BC0, #FF7043) !important; }
+
+/* line 88, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-brown { background: linear-gradient(to bottom right, #5C6BC0, #8D6E63) !important; }
+
+/* line 89, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-gray { background: linear-gradient(to bottom right, #5C6BC0, #BDBDBD) !important; }
+
+/* line 90, ../../sass/utils/light-gradient.scss */
+.light-gradient-indigo-blue-gray { background: linear-gradient(to bottom right, #5C6BC0, #78909C) !important; }
+
+/* line 91, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-red { background: linear-gradient(to bottom right, #42A5F5, #EF5350) !important; }
+
+/* line 92, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-pink { background: linear-gradient(to bottom right, #42A5F5, #EC407A) !important; }
+
+/* line 93, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-purple { background: linear-gradient(to bottom right, #42A5F5, #AB47BC) !important; }
+
+/* line 94, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-deep-purple { background: linear-gradient(to bottom right, #42A5F5, #7E57C2) !important; }
+
+/* line 95, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-indigo { background: linear-gradient(to bottom right, #42A5F5, #5C6BC0) !important; }
+
+/* line 96, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-light-blue { background: linear-gradient(to bottom right, #42A5F5, #29B6F6) !important; }
+
+/* line 97, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-cyan { background: linear-gradient(to bottom right, #42A5F5, #26C6DA) !important; }
+
+/* line 98, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-teal { background: linear-gradient(to bottom right, #42A5F5, #26A69A) !important; }
+
+/* line 99, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-green { background: linear-gradient(to bottom right, #42A5F5, #66BB6A) !important; }
+
+/* line 100, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-light-green { background: linear-gradient(to bottom right, #42A5F5, #9CCC65) !important; }
+
+/* line 101, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-lime { background: linear-gradient(to bottom right, #42A5F5, #D4E157) !important; }
+
+/* line 102, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-yellow { background: linear-gradient(to bottom right, #42A5F5, #FFEE58) !important; }
+
+/* line 103, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-amber { background: linear-gradient(to bottom right, #42A5F5, #FFCA28) !important; }
+
+/* line 104, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-orange { background: linear-gradient(to bottom right, #42A5F5, #FFA726) !important; }
+
+/* line 105, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-deep-orange { background: linear-gradient(to bottom right, #42A5F5, #FF7043) !important; }
+
+/* line 106, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-brown { background: linear-gradient(to bottom right, #42A5F5, #8D6E63) !important; }
+
+/* line 107, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray { background: linear-gradient(to bottom right, #42A5F5, #BDBDBD) !important; }
+
+/* line 108, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-blue-gray { background: linear-gradient(to bottom right, #42A5F5, #78909C) !important; }
+
+/* line 109, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-red { background: linear-gradient(to bottom right, #29B6F6, #EF5350) !important; }
+
+/* line 110, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-pink { background: linear-gradient(to bottom right, #29B6F6, #EC407A) !important; }
+
+/* line 111, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-purple { background: linear-gradient(to bottom right, #29B6F6, #AB47BC) !important; }
+
+/* line 112, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-deep-purple { background: linear-gradient(to bottom right, #29B6F6, #7E57C2) !important; }
+
+/* line 113, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-indigo { background: linear-gradient(to bottom right, #29B6F6, #5C6BC0) !important; }
+
+/* line 114, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-blue { background: linear-gradient(to bottom right, #29B6F6, #42A5F5) !important; }
+
+/* line 115, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-cyan { background: linear-gradient(to bottom right, #29B6F6, #26C6DA) !important; }
+
+/* line 116, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-teal { background: linear-gradient(to bottom right, #29B6F6, #26A69A) !important; }
+
+/* line 117, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-green { background: linear-gradient(to bottom right, #29B6F6, #66BB6A) !important; }
+
+/* line 118, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-light-green { background: linear-gradient(to bottom right, #29B6F6, #9CCC65) !important; }
+
+/* line 119, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-lime { background: linear-gradient(to bottom right, #29B6F6, #D4E157) !important; }
+
+/* line 120, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-yellow { background: linear-gradient(to bottom right, #29B6F6, #FFEE58) !important; }
+
+/* line 121, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-amber { background: linear-gradient(to bottom right, #29B6F6, #FFCA28) !important; }
+
+/* line 122, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-orange { background: linear-gradient(to bottom right, #29B6F6, #FFA726) !important; }
+
+/* line 123, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-deep-orange { background: linear-gradient(to bottom right, #29B6F6, #FF7043) !important; }
+
+/* line 124, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-brown { background: linear-gradient(to bottom right, #29B6F6, #8D6E63) !important; }
+
+/* line 125, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-gray { background: linear-gradient(to bottom right, #29B6F6, #BDBDBD) !important; }
+
+/* line 126, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-blue-blue-gray { background: linear-gradient(to bottom right, #29B6F6, #78909C) !important; }
+
+/* line 127, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-red { background: linear-gradient(to bottom right, #26C6DA, #EF5350) !important; }
+
+/* line 128, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-pink { background: linear-gradient(to bottom right, #26C6DA, #EC407A) !important; }
+
+/* line 129, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-purple { background: linear-gradient(to bottom right, #26C6DA, #AB47BC) !important; }
+
+/* line 130, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-deep-purple { background: linear-gradient(to bottom right, #26C6DA, #7E57C2) !important; }
+
+/* line 131, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-indigo { background: linear-gradient(to bottom right, #26C6DA, #5C6BC0) !important; }
+
+/* line 132, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-blue { background: linear-gradient(to bottom right, #26C6DA, #42A5F5) !important; }
+
+/* line 133, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-light-blue { background: linear-gradient(to bottom right, #26C6DA, #29B6F6) !important; }
+
+/* line 134, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-teal { background: linear-gradient(to bottom right, #26C6DA, #26A69A) !important; }
+
+/* line 135, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-green { background: linear-gradient(to bottom right, #26C6DA, #66BB6A) !important; }
+
+/* line 136, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-light-green { background: linear-gradient(to bottom right, #26C6DA, #9CCC65) !important; }
+
+/* line 137, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-lime { background: linear-gradient(to bottom right, #26C6DA, #D4E157) !important; }
+
+/* line 138, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-yellow { background: linear-gradient(to bottom right, #26C6DA, #FFEE58) !important; }
+
+/* line 139, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-amber { background: linear-gradient(to bottom right, #26C6DA, #FFCA28) !important; }
+
+/* line 140, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-orange { background: linear-gradient(to bottom right, #26C6DA, #FFA726) !important; }
+
+/* line 141, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-deep-orange { background: linear-gradient(to bottom right, #26C6DA, #FF7043) !important; }
+
+/* line 142, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-brown { background: linear-gradient(to bottom right, #26C6DA, #8D6E63) !important; }
+
+/* line 143, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-gray { background: linear-gradient(to bottom right, #26C6DA, #BDBDBD) !important; }
+
+/* line 144, ../../sass/utils/light-gradient.scss */
+.light-gradient-cyan-blue-gray { background: linear-gradient(to bottom right, #26C6DA, #78909C) !important; }
+
+/* line 145, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-red { background: linear-gradient(to bottom right, #26A69A, #EF5350) !important; }
+
+/* line 146, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-pink { background: linear-gradient(to bottom right, #26A69A, #EC407A) !important; }
+
+/* line 147, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-purple { background: linear-gradient(to bottom right, #26A69A, #AB47BC) !important; }
+
+/* line 148, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-deep-purple { background: linear-gradient(to bottom right, #26A69A, #7E57C2) !important; }
+
+/* line 149, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-indigo { background: linear-gradient(to bottom right, #26A69A, #5C6BC0) !important; }
+
+/* line 150, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-blue { background: linear-gradient(to bottom right, #26A69A, #42A5F5) !important; }
+
+/* line 151, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-light-blue { background: linear-gradient(to bottom right, #26A69A, #29B6F6) !important; }
+
+/* line 152, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-cyan { background: linear-gradient(to bottom right, #26A69A, #26C6DA) !important; }
+
+/* line 153, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-green { background: linear-gradient(to bottom right, #26A69A, #66BB6A) !important; }
+
+/* line 154, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-light-green { background: linear-gradient(to bottom right, #26A69A, #9CCC65) !important; }
+
+/* line 155, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-lime { background: linear-gradient(to bottom right, #26A69A, #D4E157) !important; }
+
+/* line 156, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-yellow { background: linear-gradient(to bottom right, #26A69A, #FFEE58) !important; }
+
+/* line 157, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-amber { background: linear-gradient(to bottom right, #26A69A, #FFCA28) !important; }
+
+/* line 158, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-orange { background: linear-gradient(to bottom right, #26A69A, #FFA726) !important; }
+
+/* line 159, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-deep-orange { background: linear-gradient(to bottom right, #26A69A, #FF7043) !important; }
+
+/* line 160, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-brown { background: linear-gradient(to bottom right, #26A69A, #8D6E63) !important; }
+
+/* line 161, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-gray { background: linear-gradient(to bottom right, #26A69A, #BDBDBD) !important; }
+
+/* line 162, ../../sass/utils/light-gradient.scss */
+.light-gradient-teal-blue-gray { background: linear-gradient(to bottom right, #26A69A, #78909C) !important; }
+
+/* line 163, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-red { background: linear-gradient(to bottom right, #66BB6A, #EF5350) !important; }
+
+/* line 164, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-pink { background: linear-gradient(to bottom right, #66BB6A, #EC407A) !important; }
+
+/* line 165, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-purple { background: linear-gradient(to bottom right, #66BB6A, #AB47BC) !important; }
+
+/* line 166, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-deep-purple { background: linear-gradient(to bottom right, #66BB6A, #7E57C2) !important; }
+
+/* line 167, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-indigo { background: linear-gradient(to bottom right, #66BB6A, #5C6BC0) !important; }
+
+/* line 168, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-blue { background: linear-gradient(to bottom right, #66BB6A, #42A5F5) !important; }
+
+/* line 169, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-light-blue { background: linear-gradient(to bottom right, #66BB6A, #29B6F6) !important; }
+
+/* line 170, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-cyan { background: linear-gradient(to bottom right, #66BB6A, #26C6DA) !important; }
+
+/* line 171, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-teal { background: linear-gradient(to bottom right, #66BB6A, #26A69A) !important; }
+
+/* line 172, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-light-green { background: linear-gradient(to bottom right, #66BB6A, #9CCC65) !important; }
+
+/* line 173, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-lime { background: linear-gradient(to bottom right, #66BB6A, #D4E157) !important; }
+
+/* line 174, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-yellow { background: linear-gradient(to bottom right, #66BB6A, #FFEE58) !important; }
+
+/* line 175, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-amber { background: linear-gradient(to bottom right, #66BB6A, #FFCA28) !important; }
+
+/* line 176, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-orange { background: linear-gradient(to bottom right, #66BB6A, #FFA726) !important; }
+
+/* line 177, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-deep-orange { background: linear-gradient(to bottom right, #66BB6A, #FF7043) !important; }
+
+/* line 178, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-brown { background: linear-gradient(to bottom right, #66BB6A, #8D6E63) !important; }
+
+/* line 179, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-gray { background: linear-gradient(to bottom right, #66BB6A, #BDBDBD) !important; }
+
+/* line 180, ../../sass/utils/light-gradient.scss */
+.light-gradient-green-blue-gray { background: linear-gradient(to bottom right, #66BB6A, #78909C) !important; }
+
+/* line 181, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-red { background: linear-gradient(to bottom right, #9CCC65, #EF5350) !important; }
+
+/* line 182, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-pink { background: linear-gradient(to bottom right, #9CCC65, #EC407A) !important; }
+
+/* line 183, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-purple { background: linear-gradient(to bottom right, #9CCC65, #AB47BC) !important; }
+
+/* line 184, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-deep-purple { background: linear-gradient(to bottom right, #9CCC65, #7E57C2) !important; }
+
+/* line 185, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-indigo { background: linear-gradient(to bottom right, #9CCC65, #5C6BC0) !important; }
+
+/* line 186, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-blue { background: linear-gradient(to bottom right, #9CCC65, #42A5F5) !important; }
+
+/* line 187, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-light-blue { background: linear-gradient(to bottom right, #9CCC65, #29B6F6) !important; }
+
+/* line 188, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-cyan { background: linear-gradient(to bottom right, #9CCC65, #26C6DA) !important; }
+
+/* line 189, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-teal { background: linear-gradient(to bottom right, #9CCC65, #26A69A) !important; }
+
+/* line 190, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-green { background: linear-gradient(to bottom right, #9CCC65, #66BB6A) !important; }
+
+/* line 191, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-lime { background: linear-gradient(to bottom right, #9CCC65, #D4E157) !important; }
+
+/* line 192, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-yellow { background: linear-gradient(to bottom right, #9CCC65, #FFEE58) !important; }
+
+/* line 193, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-amber { background: linear-gradient(to bottom right, #9CCC65, #FFCA28) !important; }
+
+/* line 194, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-orange { background: linear-gradient(to bottom right, #9CCC65, #FFA726) !important; }
+
+/* line 195, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-deep-orange { background: linear-gradient(to bottom right, #9CCC65, #FF7043) !important; }
+
+/* line 196, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-brown { background: linear-gradient(to bottom right, #9CCC65, #8D6E63) !important; }
+
+/* line 197, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-gray { background: linear-gradient(to bottom right, #9CCC65, #BDBDBD) !important; }
+
+/* line 198, ../../sass/utils/light-gradient.scss */
+.light-gradient-light-green-blue-gray { background: linear-gradient(to bottom right, #9CCC65, #78909C) !important; }
+
+/* line 199, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-red { background: linear-gradient(to bottom right, #D4E157, #EF5350) !important; }
+
+/* line 200, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-pink { background: linear-gradient(to bottom right, #D4E157, #EC407A) !important; }
+
+/* line 201, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-purple { background: linear-gradient(to bottom right, #D4E157, #AB47BC) !important; }
+
+/* line 202, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-deep-purple { background: linear-gradient(to bottom right, #D4E157, #7E57C2) !important; }
+
+/* line 203, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-indigo { background: linear-gradient(to bottom right, #D4E157, #5C6BC0) !important; }
+
+/* line 204, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-blue { background: linear-gradient(to bottom right, #D4E157, #42A5F5) !important; }
+
+/* line 205, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-light-blue { background: linear-gradient(to bottom right, #D4E157, #29B6F6) !important; }
+
+/* line 206, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-cyan { background: linear-gradient(to bottom right, #D4E157, #26C6DA) !important; }
+
+/* line 207, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-teal { background: linear-gradient(to bottom right, #D4E157, #26A69A) !important; }
+
+/* line 208, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-green { background: linear-gradient(to bottom right, #D4E157, #66BB6A) !important; }
+
+/* line 209, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-light-green { background: linear-gradient(to bottom right, #D4E157, #9CCC65) !important; }
+
+/* line 210, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-yellow { background: linear-gradient(to bottom right, #D4E157, #FFEE58) !important; }
+
+/* line 211, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-amber { background: linear-gradient(to bottom right, #D4E157, #FFCA28) !important; }
+
+/* line 212, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-orange { background: linear-gradient(to bottom right, #D4E157, #FFA726) !important; }
+
+/* line 213, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-deep-orange { background: linear-gradient(to bottom right, #D4E157, #FF7043) !important; }
+
+/* line 214, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-brown { background: linear-gradient(to bottom right, #D4E157, #8D6E63) !important; }
+
+/* line 215, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-gray { background: linear-gradient(to bottom right, #D4E157, #BDBDBD) !important; }
+
+/* line 216, ../../sass/utils/light-gradient.scss */
+.light-gradient-lime-blue-gray { background: linear-gradient(to bottom right, #D4E157, #78909C) !important; }
+
+/* line 217, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-red { background: linear-gradient(to bottom right, #FFEE58, #EF5350) !important; }
+
+/* line 218, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-pink { background: linear-gradient(to bottom right, #FFEE58, #EC407A) !important; }
+
+/* line 219, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-purple { background: linear-gradient(to bottom right, #FFEE58, #AB47BC) !important; }
+
+/* line 220, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-deep-purple { background: linear-gradient(to bottom right, #FFEE58, #7E57C2) !important; }
+
+/* line 221, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-indigo { background: linear-gradient(to bottom right, #FFEE58, #5C6BC0) !important; }
+
+/* line 222, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-blue { background: linear-gradient(to bottom right, #FFEE58, #42A5F5) !important; }
+
+/* line 223, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-light-blue { background: linear-gradient(to bottom right, #FFEE58, #29B6F6) !important; }
+
+/* line 224, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-cyan { background: linear-gradient(to bottom right, #FFEE58, #26C6DA) !important; }
+
+/* line 225, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-teal { background: linear-gradient(to bottom right, #FFEE58, #26A69A) !important; }
+
+/* line 226, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-green { background: linear-gradient(to bottom right, #FFEE58, #66BB6A) !important; }
+
+/* line 227, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-light-green { background: linear-gradient(to bottom right, #FFEE58, #9CCC65) !important; }
+
+/* line 228, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-lime { background: linear-gradient(to bottom right, #FFEE58, #D4E157) !important; }
+
+/* line 229, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-amber { background: linear-gradient(to bottom right, #FFEE58, #FFCA28) !important; }
+
+/* line 230, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-orange { background: linear-gradient(to bottom right, #FFEE58, #FFA726) !important; }
+
+/* line 231, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-deep-orange { background: linear-gradient(to bottom right, #FFEE58, #FF7043) !important; }
+
+/* line 232, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-brown { background: linear-gradient(to bottom right, #FFEE58, #8D6E63) !important; }
+
+/* line 233, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-gray { background: linear-gradient(to bottom right, #FFEE58, #BDBDBD) !important; }
+
+/* line 234, ../../sass/utils/light-gradient.scss */
+.light-gradient-yellow-blue-gray { background: linear-gradient(to bottom right, #FFEE58, #78909C) !important; }
+
+/* line 235, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-red { background: linear-gradient(to bottom right, #FFCA28, #EF5350) !important; }
+
+/* line 236, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-pink { background: linear-gradient(to bottom right, #FFCA28, #EC407A) !important; }
+
+/* line 237, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-purple { background: linear-gradient(to bottom right, #FFCA28, #AB47BC) !important; }
+
+/* line 238, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-deep-purple { background: linear-gradient(to bottom right, #FFCA28, #7E57C2) !important; }
+
+/* line 239, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-indigo { background: linear-gradient(to bottom right, #FFCA28, #5C6BC0) !important; }
+
+/* line 240, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-blue { background: linear-gradient(to bottom right, #FFCA28, #42A5F5) !important; }
+
+/* line 241, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-light-blue { background: linear-gradient(to bottom right, #FFCA28, #29B6F6) !important; }
+
+/* line 242, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-cyan { background: linear-gradient(to bottom right, #FFCA28, #26C6DA) !important; }
+
+/* line 243, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-teal { background: linear-gradient(to bottom right, #FFCA28, #26A69A) !important; }
+
+/* line 244, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-green { background: linear-gradient(to bottom right, #FFCA28, #66BB6A) !important; }
+
+/* line 245, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-light-green { background: linear-gradient(to bottom right, #FFCA28, #9CCC65) !important; }
+
+/* line 246, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-lime { background: linear-gradient(to bottom right, #FFCA28, #D4E157) !important; }
+
+/* line 247, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-yellow { background: linear-gradient(to bottom right, #FFCA28, #FFEE58) !important; }
+
+/* line 248, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-orange { background: linear-gradient(to bottom right, #FFCA28, #FFA726) !important; }
+
+/* line 249, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-deep-orange { background: linear-gradient(to bottom right, #FFCA28, #FF7043) !important; }
+
+/* line 250, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-brown { background: linear-gradient(to bottom right, #FFCA28, #8D6E63) !important; }
+
+/* line 251, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-gray { background: linear-gradient(to bottom right, #FFCA28, #BDBDBD) !important; }
+
+/* line 252, ../../sass/utils/light-gradient.scss */
+.light-gradient-amber-blue-gray { background: linear-gradient(to bottom right, #FFCA28, #78909C) !important; }
+
+/* line 253, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-red { background: linear-gradient(to bottom right, #FFA726, #EF5350) !important; }
+
+/* line 254, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-pink { background: linear-gradient(to bottom right, #FFA726, #EC407A) !important; }
+
+/* line 255, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-purple { background: linear-gradient(to bottom right, #FFA726, #AB47BC) !important; }
+
+/* line 256, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-deep-purple { background: linear-gradient(to bottom right, #FFA726, #7E57C2) !important; }
+
+/* line 257, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-indigo { background: linear-gradient(to bottom right, #FFA726, #5C6BC0) !important; }
+
+/* line 258, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-blue { background: linear-gradient(to bottom right, #FFA726, #42A5F5) !important; }
+
+/* line 259, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-light-blue { background: linear-gradient(to bottom right, #FFA726, #29B6F6) !important; }
+
+/* line 260, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-cyan { background: linear-gradient(to bottom right, #FFA726, #26C6DA) !important; }
+
+/* line 261, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-teal { background: linear-gradient(to bottom right, #FFA726, #26A69A) !important; }
+
+/* line 262, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-green { background: linear-gradient(to bottom right, #FFA726, #66BB6A) !important; }
+
+/* line 263, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-light-green { background: linear-gradient(to bottom right, #FFA726, #9CCC65) !important; }
+
+/* line 264, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-lime { background: linear-gradient(to bottom right, #FFA726, #D4E157) !important; }
+
+/* line 265, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-yellow { background: linear-gradient(to bottom right, #FFA726, #FFEE58) !important; }
+
+/* line 266, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-amber { background: linear-gradient(to bottom right, #FFA726, #FFCA28) !important; }
+
+/* line 267, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-deep-orange { background: linear-gradient(to bottom right, #FFA726, #FF7043) !important; }
+
+/* line 268, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-brown { background: linear-gradient(to bottom right, #FFA726, #8D6E63) !important; }
+
+/* line 269, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-gray { background: linear-gradient(to bottom right, #FFA726, #BDBDBD) !important; }
+
+/* line 270, ../../sass/utils/light-gradient.scss */
+.light-gradient-orange-blue-gray { background: linear-gradient(to bottom right, #FFA726, #78909C) !important; }
+
+/* line 271, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-red { background: linear-gradient(to bottom right, #FF7043, #EF5350) !important; }
+
+/* line 272, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-pink { background: linear-gradient(to bottom right, #FF7043, #EC407A) !important; }
+
+/* line 273, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-purple { background: linear-gradient(to bottom right, #FF7043, #AB47BC) !important; }
+
+/* line 274, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-deep-purple { background: linear-gradient(to bottom right, #FF7043, #7E57C2) !important; }
+
+/* line 275, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-indigo { background: linear-gradient(to bottom right, #FF7043, #5C6BC0) !important; }
+
+/* line 276, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-blue { background: linear-gradient(to bottom right, #FF7043, #42A5F5) !important; }
+
+/* line 277, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-light-blue { background: linear-gradient(to bottom right, #FF7043, #29B6F6) !important; }
+
+/* line 278, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-cyan { background: linear-gradient(to bottom right, #FF7043, #26C6DA) !important; }
+
+/* line 279, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-teal { background: linear-gradient(to bottom right, #FF7043, #26A69A) !important; }
+
+/* line 280, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-green { background: linear-gradient(to bottom right, #FF7043, #66BB6A) !important; }
+
+/* line 281, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-light-green { background: linear-gradient(to bottom right, #FF7043, #9CCC65) !important; }
+
+/* line 282, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-lime { background: linear-gradient(to bottom right, #FF7043, #D4E157) !important; }
+
+/* line 283, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-yellow { background: linear-gradient(to bottom right, #FF7043, #FFEE58) !important; }
+
+/* line 284, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-amber { background: linear-gradient(to bottom right, #FF7043, #FFCA28) !important; }
+
+/* line 285, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-orange { background: linear-gradient(to bottom right, #FF7043, #FFA726) !important; }
+
+/* line 286, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-brown { background: linear-gradient(to bottom right, #FF7043, #8D6E63) !important; }
+
+/* line 287, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-gray { background: linear-gradient(to bottom right, #FF7043, #BDBDBD) !important; }
+
+/* line 288, ../../sass/utils/light-gradient.scss */
+.light-gradient-deep-orange-blue-gray { background: linear-gradient(to bottom right, #FF7043, #78909C) !important; }
+
+/* line 289, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-red { background: linear-gradient(to bottom right, #8D6E63, #EF5350) !important; }
+
+/* line 290, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-pink { background: linear-gradient(to bottom right, #8D6E63, #EC407A) !important; }
+
+/* line 291, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-purple { background: linear-gradient(to bottom right, #8D6E63, #AB47BC) !important; }
+
+/* line 292, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-deep-purple { background: linear-gradient(to bottom right, #8D6E63, #7E57C2) !important; }
+
+/* line 293, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-indigo { background: linear-gradient(to bottom right, #8D6E63, #5C6BC0) !important; }
+
+/* line 294, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-blue { background: linear-gradient(to bottom right, #8D6E63, #42A5F5) !important; }
+
+/* line 295, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-light-blue { background: linear-gradient(to bottom right, #8D6E63, #29B6F6) !important; }
+
+/* line 296, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-cyan { background: linear-gradient(to bottom right, #8D6E63, #26C6DA) !important; }
+
+/* line 297, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-teal { background: linear-gradient(to bottom right, #8D6E63, #26A69A) !important; }
+
+/* line 298, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-green { background: linear-gradient(to bottom right, #8D6E63, #66BB6A) !important; }
+
+/* line 299, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-light-green { background: linear-gradient(to bottom right, #8D6E63, #9CCC65) !important; }
+
+/* line 300, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-lime { background: linear-gradient(to bottom right, #8D6E63, #D4E157) !important; }
+
+/* line 301, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-yellow { background: linear-gradient(to bottom right, #8D6E63, #FFEE58) !important; }
+
+/* line 302, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-amber { background: linear-gradient(to bottom right, #8D6E63, #FFCA28) !important; }
+
+/* line 303, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-orange { background: linear-gradient(to bottom right, #8D6E63, #FFA726) !important; }
+
+/* line 304, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-deep-orange { background: linear-gradient(to bottom right, #8D6E63, #FF7043) !important; }
+
+/* line 305, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-gray { background: linear-gradient(to bottom right, #8D6E63, #BDBDBD) !important; }
+
+/* line 306, ../../sass/utils/light-gradient.scss */
+.light-gradient-brown-blue-gray { background: linear-gradient(to bottom right, #8D6E63, #78909C) !important; }
+
+/* line 307, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-red { background: linear-gradient(to bottom right, #BDBDBD, #EF5350) !important; }
+
+/* line 308, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-pink { background: linear-gradient(to bottom right, #BDBDBD, #EC407A) !important; }
+
+/* line 309, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-purple { background: linear-gradient(to bottom right, #BDBDBD, #AB47BC) !important; }
+
+/* line 310, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-deep-purple { background: linear-gradient(to bottom right, #BDBDBD, #7E57C2) !important; }
+
+/* line 311, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-indigo { background: linear-gradient(to bottom right, #BDBDBD, #5C6BC0) !important; }
+
+/* line 312, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-blue { background: linear-gradient(to bottom right, #BDBDBD, #42A5F5) !important; }
+
+/* line 313, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-light-blue { background: linear-gradient(to bottom right, #BDBDBD, #29B6F6) !important; }
+
+/* line 314, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-cyan { background: linear-gradient(to bottom right, #BDBDBD, #26C6DA) !important; }
+
+/* line 315, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-teal { background: linear-gradient(to bottom right, #BDBDBD, #26A69A) !important; }
+
+/* line 316, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-green { background: linear-gradient(to bottom right, #BDBDBD, #66BB6A) !important; }
+
+/* line 317, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-light-green { background: linear-gradient(to bottom right, #BDBDBD, #9CCC65) !important; }
+
+/* line 318, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-lime { background: linear-gradient(to bottom right, #BDBDBD, #D4E157) !important; }
+
+/* line 319, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-yellow { background: linear-gradient(to bottom right, #BDBDBD, #FFEE58) !important; }
+
+/* line 320, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-amber { background: linear-gradient(to bottom right, #BDBDBD, #FFCA28) !important; }
+
+/* line 321, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-orange { background: linear-gradient(to bottom right, #BDBDBD, #FFA726) !important; }
+
+/* line 322, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-deep-orange { background: linear-gradient(to bottom right, #BDBDBD, #FF7043) !important; }
+
+/* line 323, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-brown { background: linear-gradient(to bottom right, #BDBDBD, #8D6E63) !important; }
+
+/* line 324, ../../sass/utils/light-gradient.scss */
+.light-gradient-gray-blue-gray { background: linear-gradient(to bottom right, #BDBDBD, #78909C) !important; }
+
+/* line 325, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-red { background: linear-gradient(to bottom right, #78909C, #EF5350) !important; }
+
+/* line 326, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-pink { background: linear-gradient(to bottom right, #78909C, #EC407A) !important; }
+
+/* line 327, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-purple { background: linear-gradient(to bottom right, #78909C, #AB47BC) !important; }
+
+/* line 328, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-deep-purple { background: linear-gradient(to bottom right, #78909C, #7E57C2) !important; }
+
+/* line 329, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-indigo { background: linear-gradient(to bottom right, #78909C, #5C6BC0) !important; }
+
+/* line 330, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-blue { background: linear-gradient(to bottom right, #78909C, #42A5F5) !important; }
+
+/* line 331, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-light-blue { background: linear-gradient(to bottom right, #78909C, #29B6F6) !important; }
+
+/* line 332, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-cyan { background: linear-gradient(to bottom right, #78909C, #26C6DA) !important; }
+
+/* line 333, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-teal { background: linear-gradient(to bottom right, #78909C, #26A69A) !important; }
+
+/* line 334, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-green { background: linear-gradient(to bottom right, #78909C, #66BB6A) !important; }
+
+/* line 335, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-light-green { background: linear-gradient(to bottom right, #78909C, #9CCC65) !important; }
+
+/* line 336, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-lime { background: linear-gradient(to bottom right, #78909C, #D4E157) !important; }
+
+/* line 337, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-yellow { background: linear-gradient(to bottom right, #78909C, #FFEE58) !important; }
+
+/* line 338, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-amber { background: linear-gradient(to bottom right, #78909C, #FFCA28) !important; }
+
+/* line 339, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-orange { background: linear-gradient(to bottom right, #78909C, #FFA726) !important; }
+
+/* line 340, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-deep-orange { background: linear-gradient(to bottom right, #78909C, #FF7043) !important; }
+
+/* line 341, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-brown { background: linear-gradient(to bottom right, #78909C, #8D6E63) !important; }
+
+/* line 342, ../../sass/utils/light-gradient.scss */
+.light-gradient-blue-gray-gray { background: linear-gradient(to bottom right, #78909C, #BDBDBD) !important; }

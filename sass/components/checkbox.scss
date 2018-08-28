@@ -1,0 +1,86 @@
+@import '../utils/variables';
+
+$checkbox-size: 18px;
+$checkbox-padding: 3px;
+$radio-ripple-size: 8px;
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.0);
+  }
+  50% { 
+    box-shadow: 0px 0px 0px $radio-ripple-size rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0px 0px 0px $radio-ripple-size rgba(0, 0, 0, 0);
+  }
+}
+
+.input-checkbox {
+    position: relative;
+    margin-bottom: 10px;
+    text-align: left;
+    .label {
+        cursor: pointer;
+        display: inline;
+        line-height: $checkbox-size;
+        vertical-align: top;
+        clear: both;
+        padding-left: 1px;
+        &:not(:empty) {
+            padding-left: 12px;
+        }
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        &:before {
+            width: $checkbox-size;
+            height: $checkbox-size;
+            background: #fff;
+            border: 2px solid rgba(0, 0, 0, 0.54);
+            border-radius: 2px;
+            cursor: pointer;
+            transition: background-color .3s;
+        }
+        &:after {}
+    }
+    .input {
+        outline: 0;
+        visibility: hidden;
+        width: $checkbox-size;
+        margin: 0;
+        display: block;
+        float: left;
+        font-size: inherit;
+        &:checked {
+            +.label:before {
+                background: $primary-color;
+                border: none;
+                animation: ripple 0.2s linear forwards; 
+            }
+            +.label:after {
+                $checkmark-size: $checkbox-size - 2 * $checkbox-padding;
+                transform: translate($checkbox-padding, ($checkbox-size / 2) - ($checkmark-size / 2.6)) rotate(-45deg);
+                width: $checkmark-size;
+                height: $checkmark-size / 2;
+                border: 2px solid #fff;
+                border-top-style: none;
+                border-right-style: none;
+            }
+        }
+        &:disabled {
+            +.label:before {
+                border-color: rgba(0, 0, 0, 0.26);
+            }
+            &:checked {
+                +.label:before {
+                    background: rgba(0, 0, 0, 0.26);
+                }
+            }
+        }
+    }
+}

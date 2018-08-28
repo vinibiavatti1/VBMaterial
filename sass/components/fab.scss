@@ -1,0 +1,104 @@
+@import '../utils/variables';
+@import '../utils/depth';
+@mixin fab {
+    @extend .depth-2;
+    display: inline-block;
+    background-color: $secondary-color;
+    border-radius: 50%;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    color: white;
+    &.btn-fab-small {
+        @extend .btn-fab;
+        width: 40px;
+        height: 40px;
+        line-height: 54px;
+    }
+    &.btn-fab-fixed {
+        position: fixed;
+    }
+    &.btn-fab-absolute {
+        position: absolute;
+    }
+    &.btn-fab-top-right {
+        top: 16px;
+        right: 16px;
+    }
+    &.btn-fab-top-left {
+        top: 16px;
+        left: 16px;
+    }
+    &.btn-fab-bottom-right {
+        bottom: 16px;
+        right: 16px;
+    }
+    &.btn-fab-bottom-left {
+        bottom: 16px;
+        left: 16px;
+    }
+    &.btn-fab-top-center {
+        top: 16px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    &.btn-fab-bottom-center {
+        bottom: 16px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    &.btn-fab-inset {
+        left: 50%;
+        bottom: 28px;
+        transform: translate(-50%, 0%);
+        position: absolute;
+    }
+    &.btn-fab-triangle-inset {
+        left: 50%;
+        bottom: 24px;
+        transform: translate(-50%, 0%);
+        position: absolute;
+    }
+    &.btn-fab-halfway {
+        position: absolute;
+        right: 16px;
+        bottom: 0px;
+        transform: translate(0px, 40%);
+        &.left {
+            right: auto;
+            left: 16px;
+        }
+    }
+}
+
+.btn-fab {
+    @include fab();
+    width: 56px;
+    height: 56px;
+}
+
+.btn-fab-text {
+    @include fab();
+    height: 48px;
+    line-height: 48px;
+    padding: 0px 20px;
+    border-radius: 48px;
+    font-size: 16px;
+    i {
+        vertical-align: middle;
+        padding: 2px -2px;
+        display: inline-block;
+        margin-bottom: 3px;
+    }
+}
+
+.btn-fab-triangle {
+    @include fab();
+    width: 62px;
+    height: 62px;
+    line-height: 75px;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}

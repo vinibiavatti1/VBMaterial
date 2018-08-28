@@ -1,0 +1,169 @@
+@import '../utils/depth';
+@import '../utils/variables';
+$spacement: 24px;
+$font-title-size: 24px;
+$font-content-size: 24px;
+$font-line-height: 0;
+$font-content-color: #757575;
+$avatar-width: 11px;
+$avatar-height: 11px;
+$avatar-margin-top: 1px;
+
+@mixin card(
+$spacement: 16px, 
+$actions-spacement-width: 10px,
+$actions-spacement-height: 10px,
+$font-title-size: 24px, 
+$font-content-size: 14px, 
+$font-content-weight: 500, 
+$font-line-height: 1.3, 
+$font-content-color: #757575,
+$font-subtitle-color: #757575,
+$avatar-size: 44px,
+$avatar-margin-top: 4px,
+$card-horizontal-image: 233px) {
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    margin: 4px;
+    @extend .depth-1;
+    @extend .depth-2-transition;
+
+    .card-image {
+        display: block;
+        width: 100%;
+        position: relative;
+        img {
+            object-fit: cover;
+            width: 100%;
+        }
+        .card-title {
+            position: absolute;
+            bottom: $spacement;
+            left: $spacement;
+            font-size: $font-title-size;
+            color: white;
+        }
+    }
+    .card-content {
+        display: block;
+        padding: $spacement;
+        line-height: $font-line-height;
+        p {
+            font-weight: $font-content-weight;
+            font-size: $font-content-size;
+            color: $font-content-color;
+        }
+        .card-title {
+            display: block;
+            color: #424242;
+            font-size: $font-title-size;
+            margin-bottom: 16px;
+        }
+    }
+    .card-actions {
+        display: block;
+        padding: $actions-spacement-height $actions-spacement-width;
+        border-top: 1px solid #E0E0E0;
+        a,
+        button {
+            margin-bottom: 0px;
+        }
+        .card-link {
+            min-width: 48px;
+            height: 33px;
+            color: $primary-color;
+            line-height: 33px;
+            text-transform: uppercase;
+            padding: 0px 6px;
+            font-weight: 500;
+        }
+    }
+    .card-header {
+        padding: $spacement;
+        .card-title {
+            color: #424242;
+            font-size: $font-title-size;
+            margin-bottom: 0px;
+        }
+        .card-subtitle {
+            font-weight: $font-content-weight;
+            font-size: $font-content-size;
+            color: $font-subtitle-color;
+        }
+        .card-avatar {
+            float: left;
+            margin-right: $spacement;
+            img {
+                width: $avatar-size;
+                height: $avatar-size;
+            }
+        }
+    }
+    .card-content-header {
+        margin-bottom: $spacement;
+        .card-title {
+            margin-bottom: 0px;
+        }
+        .card-subtitle {
+            font-weight: $font-content-weight;
+            font-size: $font-content-size;
+            color: $font-subtitle-color;
+        }
+        .card-avatar {
+            float: left;
+            margin-right: $spacement;
+            img {
+                margin-top: $avatar-margin-top;
+                width: $avatar-size;
+                height: $avatar-size;
+            }
+        }
+    }
+    .card-horizontal-image {
+        //flex: 0 0 auto;
+        overflow: hidden;
+        min-width: 230px;
+        .card-title {
+            position: absolute;
+            bottom: $spacement;
+            left: $spacement;
+            font-size: $font-title-size;
+            color: white;
+        }
+    }
+    .card-stacked {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        position: relative;
+        .card-content {
+            flex-grow: 1;
+        }
+    }
+}
+
+.card {
+    @include card();
+}
+
+.card-large {
+    @include card(20px, 20px, 16px, 24px, medium, 400, 1.6, #616161, #757575, 50px, 10px, 304px);
+}
+
+.card-horizontal {
+    @include card();
+    display: flex;
+}
+
+.card-horizontal-large {
+    @include card(20px, 20px, 16px, 24px, medium, 400, 1.6, #616161, #757575, 50px, 10px, 304px);
+    display: flex;
+}
+
+.card-panel {
+    @extend .depth-1;
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+}

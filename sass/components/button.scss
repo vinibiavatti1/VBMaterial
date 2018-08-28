@@ -1,0 +1,113 @@
+@import '../utils/variables';
+@import '../utils/depth';
+
+@mixin btn {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 13px 16px;
+    background-color: $primary-color;
+    color: white;
+    border-radius: 3px;
+    min-width: 48px;
+    height: 33px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 7px;
+    text-align: center;
+    margin-bottom: 5px;
+    i {
+        vertical-align: top;
+        display: inline-block;
+        line-height: 8px;
+        &.left {
+            margin-right: 10px;
+        }
+        &.right {
+            margin-left: 10px;
+        }
+    }
+
+    &.btn-full {
+        width: 100%;
+    }
+
+    &.btn-large {
+        height: 36px;
+        line-height: 9px;
+        i {
+            line-height: 10px;
+        }
+    }
+
+    &.btn-medium {
+        padding: 12px 15px;
+        height: 33px;
+        line-height: 7px;
+        i {
+            line-height: 8px;
+        }
+    }
+
+    &.btn-small {
+        padding: 12px 14px;
+        height: 30px;
+        line-height: 5px;
+        i {
+            line-height: 6px;
+        }
+    }
+
+    &.btn-circle {
+        border-radius: 50px;
+    }
+}
+
+.btn {
+    @include btn();
+    @extend .depth-1;
+    &:hover {
+        @extend .depth-2;
+    }
+}
+
+.btn-outlined {
+    @include btn();
+    border: 1px #9E9E9E solid;
+    background-color: transparent;
+    color: $primary-color;
+    padding: 12px 15px 12px 15px;
+    &:hover {
+        background-color: #EEEEEE;
+    }
+}
+
+.btn-outlined-strong {
+    @include btn();
+    border: 2px $primary-color solid;
+    background-color: transparent;
+    color: $primary-color;
+    padding: 11px 14px 12px 14px;
+    &:hover {
+        background-color: #EEEEEE;
+    }
+    &.btn-small {
+        line-height: 4px;
+        i {
+            line-height: 5px;
+        }
+    }
+}
+
+.btn-flat {
+    @include btn();
+    background-color: transparent;
+    color: $primary-color;
+    &:hover {
+        background-color: #EEEEEE;
+    }
+}
+

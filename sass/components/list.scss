@@ -1,0 +1,31 @@
+.list {
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    overflow: hidden;
+    a {
+        &.list-item {
+            display: block;
+        }
+    }
+    .list-item {
+        position: relative;
+        padding: 10px 20px;
+        border-bottom: 1px solid #E0E0E0;
+        i {
+            position: absolute;
+            color: $primary-color;
+            top: 7px;
+            right: 17px;
+            &.left {
+                left: 10px;
+            }
+            &.right{
+                right: 17px;
+            }
+        }
+    }
+    &:last-child {
+        border-bottom: none;
+    }
+}
+

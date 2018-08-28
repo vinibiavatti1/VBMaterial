@@ -1,0 +1,74 @@
+@import '../utils/variables';
+@mixin table {
+    border: none;
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    &.table-centered {
+        thead tr th,
+        tbody tr td {
+            text-align: center;
+        }
+    }
+    &.table-bordered {
+        tbody>tr>td,
+        tbody>tr>th,
+        tfoot>tr>td,
+        tfoot>tr>th,
+        thead>tr>td,
+        thead>tr>th {
+            border: 1px solid $table-bordered-color;
+        }
+    }
+    tr {
+        border-bottom: 1px solid $table-border-bottom-color;
+    }
+    th,
+    td {
+        border: none;
+        padding: 10px 5px;
+        display: table-cell;
+        text-align: left;
+        vertical-align: middle;
+        border-radius: 2px;
+        color: #424242;
+    }
+    .checkbox-cell {
+        width: 18px;
+        .input-checkbox {
+            width: 19px;
+            margin-bottom: 0px;
+        }
+      
+    }
+}
+
+.table {
+    @include table();
+}
+
+.table-striped {
+    @include table();
+    tr {
+        border-bottom: none;
+    }
+    >tbody {
+        >tr:nth-child(odd) {
+            background-color: $table-striped-color;
+        }
+        >tr>td {
+            border-radius: 0;
+        }
+    }
+}
+
+.table-highlight {
+    @include table();
+    >tbody>tr {
+        transition: background-color .25s ease;
+        &:hover {
+            background-color: $table-striped-color;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+/* line 1, ../../sass/utils/shadow.scss */
+.depth-0 { -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
+
+/* line 7, ../../sass/utils/shadow.scss */
+.depth-1 { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+/* line 12, ../../sass/utils/shadow.scss */
+.depth-2 { box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+/* line 17, ../../sass/utils/shadow.scss */
+.depth-3 { box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+/* line 22, ../../sass/utils/shadow.scss */
+.depth-4 { box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+/* line 27, ../../sass/utils/shadow.scss */
+.depth-5 { box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+/* line 32, ../../sass/utils/shadow.scss */
+.depth-1-transition:hover { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+/* line 36, ../../sass/utils/shadow.scss */
+.depth-2-transition:hover { box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+/* line 40, ../../sass/utils/shadow.scss */
+.depth-3-transition:hover { box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+/* line 44, ../../sass/utils/shadow.scss */
+.depth-4-transition:hover { box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+/* line 48, ../../sass/utils/shadow.scss */
+.depth-5-transition:hover { box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }

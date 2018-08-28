@@ -1,0 +1,51 @@
+/*!
+ * Waves v0.6.0
+ * http://fian.my.id/Waves
+ *
+ * Copyright 2014 Alfiana E. Sibuea and other contributors
+ * Released under the MIT license
+ * https://github.com/fians/Waves/blob/master/LICENSE
+ */
+/* line 11, ../../sass/utils/ripple.scss */
+.waves-effect { position: relative; cursor: pointer; display: inline-block; overflow: hidden; user-select: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; z-index: 1; transition: .3s ease-out; }
+/* line 22, ../../sass/utils/ripple.scss */
+.waves-effect .waves-ripple { position: absolute; border-radius: 50%; width: 20px; height: 20px; margin-top: -10px; margin-left: -10px; opacity: 0; background: rgba(0, 0, 0, 0.2); transition: all 0.7s ease-out; transition-property: transform, opacity; transform: scale(0); pointer-events: none; }
+/* line 39, ../../sass/utils/ripple.scss */
+.waves-effect.waves-light .waves-ripple { background-color: rgba(255, 255, 255, 0.45); }
+/* line 42, ../../sass/utils/ripple.scss */
+.waves-effect.waves-red .waves-ripple { background-color: rgba(244, 67, 54, 0.7); }
+/* line 45, ../../sass/utils/ripple.scss */
+.waves-effect.waves-yellow .waves-ripple { background-color: rgba(255, 235, 59, 0.7); }
+/* line 48, ../../sass/utils/ripple.scss */
+.waves-effect.waves-orange .waves-ripple { background-color: rgba(255, 152, 0, 0.7); }
+/* line 51, ../../sass/utils/ripple.scss */
+.waves-effect.waves-purple .waves-ripple { background-color: rgba(156, 39, 176, 0.7); }
+/* line 54, ../../sass/utils/ripple.scss */
+.waves-effect.waves-green .waves-ripple { background-color: rgba(76, 175, 80, 0.7); }
+/* line 57, ../../sass/utils/ripple.scss */
+.waves-effect.waves-teal .waves-ripple { background-color: rgba(0, 150, 136, 0.7); }
+/* line 62, ../../sass/utils/ripple.scss */
+.waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"] { border: 0; font-style: normal; font-size: inherit; text-transform: inherit; background: none; }
+/* line 70, ../../sass/utils/ripple.scss */
+.waves-effect img { position: relative; z-index: -1; }
+
+/* line 76, ../../sass/utils/ripple.scss */
+.waves-notransition { transition: none !important; }
+
+/* line 80, ../../sass/utils/ripple.scss */
+.waves-circle { transform: translateZ(0); -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); }
+
+/* line 85, ../../sass/utils/ripple.scss */
+.waves-input-wrapper { border-radius: 0.2em; vertical-align: bottom; }
+/* line 89, ../../sass/utils/ripple.scss */
+.waves-input-wrapper .waves-button-input { position: relative; top: 0; left: 0; z-index: 1; }
+
+/* line 97, ../../sass/utils/ripple.scss */
+.waves-circle { text-align: center; width: 2.5em; height: 2.5em; line-height: 2.5em; border-radius: 50%; -webkit-mask-image: none; }
+
+/* line 106, ../../sass/utils/ripple.scss */
+.waves-block { display: block; }
+
+/* Firefox Bug: link not triggered */
+/* line 111, ../../sass/utils/ripple.scss */
+.waves-effect .waves-ripple { z-index: -1; }

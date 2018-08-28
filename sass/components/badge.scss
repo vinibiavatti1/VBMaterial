@@ -1,0 +1,59 @@
+@import '../utils/variables';
+@import '../utils/depth';
+
+@mixin badge($margin-top, $width, $height, $border-radius: 2px) {
+    float: right;
+    margin-top: $margin-top;
+    background: $primary-color;
+    color: white;
+    width: $width;
+    height: $height;
+    text-align: center;
+    line-height: $height;
+    border-radius: $border-radius;
+    overflow: hidden;
+    font-size: .7em;
+    &[data-badge]:after {
+        content: attr(data-badge);
+    }
+}
+
+@mixin badge-fixed {
+    position: relative;
+    &[data-badge]:after {
+        content: attr(data-badge);
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        font-size: .7em;
+        background: $secondary-color;
+        color: white;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 50%;
+        @extend .depth-1;
+        overflow: hidden;
+    }
+}
+
+.badge {
+    @include badge-fixed();
+}
+
+.list-badge {
+    @include badge(0px, 18px, 18px, 50%);
+}
+
+.list-badge-rect {
+    @include badge(0px, 30px, 18px);
+}
+
+.drawer-menu-badge {
+    @include badge(3px, 20px, 20px, 50%);
+}
+
+.drawer-menu-badge-rect {
+    @include badge(3px, 30px, 18px);
+}

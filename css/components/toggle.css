@@ -1,0 +1,31 @@
+/* line 2, ../../sass/components/toggle.scss */
+.toggle-group { vertical-align: middle; display: inline-block; }
+/* line 6, ../../sass/components/toggle.scss */
+.toggle-group .label-text { margin-bottom: 20px; color: black; }
+
+/* line 11, ../../sass/components/toggle.scss */
+.toggle { display: inline-block; min-height: 0px; padding: 15px 40px 12px 10px; width: 40px; }
+
+/* line 17, ../../sass/components/toggle.scss */
+.toggle input[type="checkbox"] { display: none; }
+
+/* line 20, ../../sass/components/toggle.scss */
+.toggle label { cursor: pointer; height: 0px; position: relative; width: 36px; background-color: #6202EE; }
+
+/* line 27, ../../sass/components/toggle.scss */
+.toggle > label::before { background: black; box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5); border-radius: 8px; content: ''; height: 13px; margin-top: -8px; position: absolute; opacity: 0.3; transition: all 0.4s ease-in-out; width: 30px; }
+
+/* line 39, ../../sass/components/toggle.scss */
+.toggle > label::after { background: white; border-radius: 16px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); content: ''; height: 20px; left: -4px; margin-top: -8px; position: absolute; top: -4px; transition: all 0.3s ease-in-out; width: 20px; }
+
+/* line 52, ../../sass/components/toggle.scss */
+.toggle > input[type="checkbox"]:checked + label::before { background: inherit; opacity: 0.4; }
+
+/* line 56, ../../sass/components/toggle.scss */
+.toggle > input[type="checkbox"]:checked + label::after { background: inherit; left: 15px; }
+
+/* line 60, ../../sass/components/toggle.scss */
+.toggle > input[type="checkbox"]:disabled + label::after { background: #BDBDBD; }
+
+/* line 63, ../../sass/components/toggle.scss */
+.toggle > input[type="checkbox"]:disabled + label::before { background: #BDBDBD; }

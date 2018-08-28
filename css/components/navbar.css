@@ -1,0 +1,54 @@
+/* line 1, ../../sass/utils/shadow.scss */
+.dp0 { -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none !important; }
+
+/* line 7, ../../sass/utils/shadow.scss */
+.dp1 { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+/* line 11, ../../sass/utils/shadow.scss */
+.dp2, .navbar-top { box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+/* line 15, ../../sass/utils/shadow.scss */
+.dp3 { box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+/* line 19, ../../sass/utils/shadow.scss */
+.dp4 { box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+/* line 23, ../../sass/utils/shadow.scss */
+.dp5 { box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
+/* line 1, ../../sass/utils/alignment.scss */
+.right { float: right; }
+
+/* line 3, ../../sass/utils/fade.scss */
+.faded:hover { background-color: rgba(0, 0, 0, 0.15); }
+
+/* line 6, ../../sass/components/navbar.scss */
+.navbar, .navbar-top, .navbar-bottom { width: 100%; height: 56px; background-color: #6202EE; padding-left: 4px; padding-right: 4px; line-height: 55px; vertical-align: middle; color: white; box-sizing: border-box; font-size: 18px; z-index: 8; }
+/* line 19, ../../sass/components/navbar.scss */
+.navbar .navbar-title, .navbar-top .navbar-title, .navbar-bottom .navbar-title { display: inline-block; vertical-align: middle; padding: 0px 20px; }
+/* line 25, ../../sass/components/navbar.scss */
+.navbar .navbar-title-bottom, .navbar-top .navbar-title-bottom, .navbar-bottom .navbar-title-bottom { padding: 0px 20px; vertical-align: top; padding-top: 56px; display: inline-block; }
+/* line 32, ../../sass/components/navbar.scss */
+.navbar .material-icons, .navbar-top .material-icons, .navbar-bottom .material-icons { vertical-align: middle; }
+/* line 36, ../../sass/components/navbar.scss */
+.navbar a, .navbar-top a, .navbar-bottom a { padding: 0px 6px; display: inline-block; }
+/* line 41, ../../sass/components/navbar.scss */
+.navbar .navbar-link, .navbar-top .navbar-link, .navbar-bottom .navbar-link { font-size: 15px; padding: 0px 16px; }
+/* line 46, ../../sass/components/navbar.scss */
+.navbar .navbar-link:hover, .navbar-top .navbar-link:hover, .navbar-bottom .navbar-link:hover { background-color: rgba(0, 0, 0, 0.15); }
+/* line 50, ../../sass/components/navbar.scss */
+.navbar i, .navbar-top i, .navbar-bottom i { border-radius: 50%; padding: 6px; }
+/* line 55, ../../sass/components/navbar.scss */
+.navbar .active, .navbar-top .active, .navbar-bottom .active { background-color: rgba(0, 0, 0, 0.15); }
+
+/* line 65, ../../sass/components/navbar.scss */
+.navbar-bottom { position: fixed; bottom: 0px; }
+
+/* line 71, ../../sass/components/navbar.scss */
+.navbar-inset { background: radial-gradient(circle at 50% 0, rgba(0, 0, 0, 0) 35px, #6202ee 36px) 0 0; }
+
+/* line 75, ../../sass/components/navbar.scss */
+.navbar-fixed { position: fixed; }
+
+/* line 79, ../../sass/components/navbar.scss */
+.navbar-extended { height: 112px !important; }

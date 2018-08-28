@@ -1,0 +1,11 @@
+/* line 1, ../../sass/utils/hover.scss */
+.hover-effect:hover { background-color: rgba(0, 0, 0, 0.15); transition: background-color .3s; }
+
+/* line 6, ../../sass/utils/hover.scss */
+.hover-effect-light:hover { background-color: rgba(0, 0, 0, 0.05); transition: background-color .3s; }
+
+/* line 11, ../../sass/utils/hover.scss */
+.hover-effect-white:hover { background-color: rgba(255, 255, 255, 0.15); transition: background-color .3s; }
+
+/* line 16, ../../sass/utils/hover.scss */
+.hover-effect-white-light:hover { background-color: rgba(255, 255, 255, 0.05); transition: background-color .3s; }

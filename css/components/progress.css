@@ -1,0 +1,36 @@
+/* line 63, ../../sass/components/progress.scss */
+.progress { position: relative; height: 4px; display: block; width: 100%; background-color: #d8befe; border-radius: 2px; margin: 6px 0 6px 0; overflow: hidden; }
+/* line 24, ../../sass/components/progress.scss */
+.progress .determinate { position: absolute; top: 0; left: 0; bottom: 0; background-color: #6202EE; transition: width .3s linear; background-size: 20px 20px; }
+/* line 32, ../../sass/components/progress.scss */
+.progress .determinate.determinate-striped { background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent); background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent); background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent); -webkit-animation: progress-bar-stripes 2s linear infinite; -o-animation: progress-bar-stripes 2s linear infinite; animation: progress-bar-stripes 2s linear infinite; }
+/* line 37, ../../sass/components/progress.scss */
+.progress .indeterminate { background-color: #6202EE; }
+/* line 39, ../../sass/components/progress.scss */
+.progress .indeterminate:before { content: ''; position: absolute; background-color: inherit; top: 0; left: 0; bottom: 0; will-change: left, right; animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
+/* line 49, ../../sass/components/progress.scss */
+.progress .indeterminate:after { content: ''; position: absolute; background-color: inherit; top: 0; left: 0; bottom: 0; will-change: left, right; animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite; animation-delay: 1.15s; }
+
+/* line 67, ../../sass/components/progress.scss */
+.progress-large { position: relative; height: 4px; display: block; width: 100%; background-color: #d8befe; border-radius: 2px; margin: 6px 0 6px 0; overflow: hidden; height: 12px; }
+/* line 24, ../../sass/components/progress.scss */
+.progress-large .determinate { position: absolute; top: 0; left: 0; bottom: 0; background-color: #6202EE; transition: width .3s linear; background-size: 20px 20px; }
+/* line 32, ../../sass/components/progress.scss */
+.progress-large .determinate.determinate-striped { background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent); background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent); background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent); -webkit-animation: progress-bar-stripes 2s linear infinite; -o-animation: progress-bar-stripes 2s linear infinite; animation: progress-bar-stripes 2s linear infinite; }
+/* line 37, ../../sass/components/progress.scss */
+.progress-large .indeterminate { background-color: #6202EE; }
+/* line 39, ../../sass/components/progress.scss */
+.progress-large .indeterminate:before { content: ''; position: absolute; background-color: inherit; top: 0; left: 0; bottom: 0; will-change: left, right; animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
+/* line 49, ../../sass/components/progress.scss */
+.progress-large .indeterminate:after { content: ''; position: absolute; background-color: inherit; top: 0; left: 0; bottom: 0; will-change: left, right; animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite; animation-delay: 1.15s; }
+
+@-webkit-keyframes progress-bar-stripes { from { background-position: 40px 0; }
+  to { background-position: 0 0; } }
+@keyframes progress-bar-stripes { from { background-position: 40px 0; }
+  to { background-position: 0 0; } }
+@keyframes indeterminate { 0% { left: -35%; right: 100%; }
+  60% { left: 100%; right: -90%; }
+  100% { left: 100%; right: -90%; } }
+@keyframes indeterminate-short { 0% { left: -200%; right: 100%; }
+  60% { left: 107%; right: -8%; }
+  100% { left: 107%; right: -8%; } }

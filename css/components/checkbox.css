@@ -1,0 +1,23 @@
+@keyframes ripple { 0% { box-shadow: 0px 0px 0px 1px transparent; }
+  50% { box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.1); }
+  100% { box-shadow: 0px 0px 0px 8px transparent; } }
+/* line 19, ../../sass/components/checkbox.scss */
+.input-checkbox { position: relative; margin-bottom: 10px; text-align: left; }
+/* line 23, ../../sass/components/checkbox.scss */
+.input-checkbox .label { cursor: pointer; display: inline; line-height: 18px; vertical-align: top; clear: both; padding-left: 1px; }
+/* line 30, ../../sass/components/checkbox.scss */
+.input-checkbox .label:not(:empty) { padding-left: 12px; }
+/* line 33, ../../sass/components/checkbox.scss */
+.input-checkbox .label:before, .input-checkbox .label:after { content: ""; position: absolute; left: 0; top: 0; }
+/* line 40, ../../sass/components/checkbox.scss */
+.input-checkbox .label:before { width: 18px; height: 18px; background: #fff; border: 2px solid rgba(0, 0, 0, 0.54); border-radius: 2px; cursor: pointer; transition: background-color .3s; }
+/* line 51, ../../sass/components/checkbox.scss */
+.input-checkbox .input { outline: 0; visibility: hidden; width: 18px; margin: 0; display: block; float: left; font-size: inherit; }
+/* line 60, ../../sass/components/checkbox.scss */
+.input-checkbox .input:checked + .label:before { background: #6202EE; border: none; animation: ripple 0.2s linear forwards; }
+/* line 65, ../../sass/components/checkbox.scss */
+.input-checkbox .input:checked + .label:after { transform: translate(3px, 4.3846153846px) rotate(-45deg); width: 12px; height: 6px; border: 2px solid #fff; border-top-style: none; border-right-style: none; }
+/* line 76, ../../sass/components/checkbox.scss */
+.input-checkbox .input:disabled + .label:before { border-color: rgba(0, 0, 0, 0.26); }
+/* line 80, ../../sass/components/checkbox.scss */
+.input-checkbox .input:disabled:checked + .label:before { background: rgba(0, 0, 0, 0.26); }

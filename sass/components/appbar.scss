@@ -1,0 +1,109 @@
+@import '../utils/variables';
+@import '../utils/depth';
+@import '../utils/alignment';
+
+@mixin appbar-title {
+    display: inline-block;
+    padding: 0px 20px;
+    font-weight: 500;
+}
+
+@mixin appbar {
+    width: 100%;
+    height: 56px;
+    background-color: $primary-color;
+    padding-left: 4px;
+    padding-right: 4px;
+    line-height: 55px;
+    vertical-align: middle;
+    color: white;
+    box-sizing: border-box;
+    font-size: 18px;
+    z-index: 8;
+
+    .appbar-title {
+        @include appbar-title();
+    }
+
+    .appbar-title-large {
+        font-size: 24px;
+        @include appbar-title();
+    }
+
+    .appbar-title-bottom {
+        @include appbar-title();
+        padding-top: 56px;
+    }
+
+    .appbar-logo {
+        font-size: 2.1rem;
+        display: inline-block;
+        padding: 0px 20px;
+    }
+
+    .material-icons {
+        vertical-align: middle;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        display: inline-flex;
+        padding: 0px;
+    }
+
+    ul li a {
+        color: white;
+        padding: 0px 6px;
+        display: inline-block;
+    }
+
+    .appbar-link {
+        font-size: 15px;
+        padding: 0px 16px;
+    }
+
+    i {
+        border-radius: 50%;
+        padding: 6px;
+    }
+
+    .active {
+        background-color: rgba(0,0,0,0.15);
+    }
+
+    .active-light {
+        background-color: rgba(255,255,255,0.15);
+    }
+
+    &.appbar-inset {
+        background: radial-gradient(circle at 50% 0, transparent 35px, $primary-color 36px) 0 0;
+    }
+    
+    &.appbar-fixed {
+        position: fixed;
+    }
+    
+    &.appbar-absolute {
+        position: absolute;
+    }
+    
+    &.appbar-extended {
+        height: 112px!important;
+    }
+    
+    &.appbar-large {
+        height: 64px;
+        line-height: 63px;
+    }
+}
+
+.appbar-top { 
+    @include appbar();
+    @extend .depth-2;
+}
+
+.appbar-bottom {
+    @include appbar();
+    bottom: 0px;
+}

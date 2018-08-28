@@ -1,0 +1,56 @@
+/* line 4, ../../sass/utils/global.scss */
+html { box-sizing: border-box; }
+
+/* line 8, ../../sass/utils/global.scss */
+*, *:before, *:after { box-sizing: inherit; }
+
+/* line 14, ../../sass/utils/global.scss */
+main { padding: 16px; }
+
+/* line 18, ../../sass/utils/global.scss */
+p { margin: 0px; }
+
+/* line 22, ../../sass/utils/global.scss */
+a { text-decoration: none; color: #039BE5; }
+
+/* line 27, ../../sass/utils/global.scss */
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; margin: 0px; }
+
+/* line 32, ../../sass/utils/global.scss */
+blockquote { margin: 20px 0; padding-left: 1.5rem; border-left: 5px solid #6202EE; }
+
+/* line 38, ../../sass/utils/global.scss */
+h1, h2, h3, h4, h5, h6 { margin: 0px; font-weight: 400; }
+
+/* line 49, ../../sass/utils/global.scss */
+ul { margin: 0px; padding-left: 0; list-style-type: none; }
+/* line 53, ../../sass/utils/global.scss */
+ul > li { list-style-type: none; }
+
+/* line 59, ../../sass/utils/global.scss */
+.hide { display: none !important; }
+
+/* line 64, ../../sass/utils/global.scss */
+.left-align { text-align: left; }
+
+/* line 68, ../../sass/utils/global.scss */
+.right-align { text-align: right; }
+
+/* line 72, ../../sass/utils/global.scss */
+.center, .center-align { text-align: center; }
+
+/* line 78, ../../sass/utils/global.scss */
+.circle { border-radius: 50%; }
+
+/* line 82, ../../sass/utils/global.scss */
+.divider, .separator { height: 1px; overflow: hidden; background-color: #E0E0E0; }
+
+/* line 89, ../../sass/utils/global.scss */
+.cursor-pointer { cursor: pointer; }
+
+/* line 95, ../../sass/utils/global.scss */
+.scroll ::-webkit-scrollbar-track { background-color: #F5F5F5; }
+/* line 98, ../../sass/utils/global.scss */
+.scroll ::-webkit-scrollbar { width: 8px; background: #F5F5F5; }
+/* line 102, ../../sass/utils/global.scss */
+.scroll ::-webkit-scrollbar-thumb { background: #E0E0E0; }
