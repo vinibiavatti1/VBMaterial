@@ -1,0 +1,59 @@
+@import '../utils/variables';
+
+@mixin footer {
+    padding: 18px 16px;
+    width: 100%;
+    background-color: $primary-color;
+    color: white;
+
+    .footer-content {
+        color: #EEEEEE;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
+@mixin footer-copyright {
+    background-color: $primary-color-dark;
+    padding: 10px 16px;
+    font-size: 14px;
+    color: #EEEEEE;
+
+    .footer-copyright-text{
+        color: #BDBDBD;
+    }
+}
+
+.footer {
+    @include footer();
+}
+
+.footer-copyright {
+    @include footer-copyright();
+}
+
+.footer-absolute {
+    position: absolute;
+}
+
+.footer-fixed {
+    position: fixed;
+}
+
+.footer-bottom {
+    bottom: 0px;
+}
+
+.footer-link {
+    color: #EEEEEE;
+}
+
+.body-flex {
+    display: flex!important;
+    min-height: 100vh!important;
+    flex-direction: column!important;
+}
+
+.main-flex {
+    flex: 1 0 auto!important;
+}

@@ -6126,17 +6126,45 @@ hr.line-16:before { display: block; content: ""; height: 30px; margin-top: -31px
 /* line 164, ../sass/components/card.scss */
 .card-panel { background-color: white; padding: 16px; border-radius: 4px; }
 
-/* line 1, ../sass/components/list.scss */
+/* line 3, ../sass/components/list.scss */
 .list { border-radius: 4px; border: 1px solid #E0E0E0; overflow: hidden; }
-/* line 6, ../sass/components/list.scss */
+/* line 8, ../sass/components/list.scss */
 .list a.list-item { display: block; }
-/* line 10, ../sass/components/list.scss */
+/* line 12, ../sass/components/list.scss */
 .list .list-item { position: relative; padding: 10px 20px; border-bottom: 1px solid #E0E0E0; }
-/* line 14, ../sass/components/list.scss */
+/* line 16, ../sass/components/list.scss */
 .list .list-item i { position: absolute; color: #6202EE; top: 7px; right: 17px; }
-/* line 19, ../sass/components/list.scss */
+/* line 21, ../sass/components/list.scss */
 .list .list-item i.left { left: 10px; }
-/* line 22, ../sass/components/list.scss */
+/* line 24, ../sass/components/list.scss */
 .list .list-item i.right { right: 17px; }
-/* line 27, ../sass/components/list.scss */
+/* line 29, ../sass/components/list.scss */
 .list:last-child { border-bottom: none; }
+
+/* line 27, ../sass/components/footer.scss */
+.footer { padding: 18px 16px; width: 100%; background-color: #6202EE; color: white; }
+/* line 9, ../sass/components/footer.scss */
+.footer .footer-content { color: #EEEEEE; font-size: 14px; line-height: 1.6; }
+
+/* line 31, ../sass/components/footer.scss */
+.footer-copyright { background-color: #4400a8; padding: 10px 16px; font-size: 14px; color: #EEEEEE; }
+/* line 22, ../sass/components/footer.scss */
+.footer-copyright .footer-copyright-text { color: #BDBDBD; }
+
+/* line 35, ../sass/components/footer.scss */
+.footer-absolute { position: absolute; }
+
+/* line 39, ../sass/components/footer.scss */
+.footer-fixed { position: fixed; }
+
+/* line 43, ../sass/components/footer.scss */
+.footer-bottom { bottom: 0px; }
+
+/* line 47, ../sass/components/footer.scss */
+.footer-link { color: #EEEEEE; }
+
+/* line 51, ../sass/components/footer.scss */
+.body-flex { display: flex !important; min-height: 100vh !important; flex-direction: column !important; }
+
+/* line 57, ../sass/components/footer.scss */
+.main-flex { flex: 1 0 auto !important; }

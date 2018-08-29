@@ -1,102 +1,14 @@
-/*
-Error: Undefined variable: "$primary-color".
-        on line 16 of C:/Users/vinicius.reif/Desktop/VBMaterial/sass/components/list.scss
-
-11:         position: relative;
-12:         padding: 10px 20px;
-13:         border-bottom: 1px solid #E0E0E0;
-14:         i {
-15:             position: absolute;
-16:             color: $primary-color;
-17:             top: 7px;
-18:             right: 17px;
-19:             &.left {
-20:                 left: 10px;
-21:             }
-
-Backtrace:
-C:/Users/vinicius.reif/Desktop/VBMaterial/sass/components/list.scss:16
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-org/jruby/RubyArray.java:2412:in `map'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-org/jruby/RubyArray.java:2412:in `map'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-org/jruby/RubyArray.java:2412:in `map'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-org/jruby/RubyArray.java:2412:in `map'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `visit_children'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/engine.rb:268:in `render'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-org/jruby/RubyMethod.java:128:in `call'
-file:/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/compass-app.jar!/hook/compass_patch.rb:108:in `update_stylesheet'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `update_stylesheets'
-org/jruby/RubyArray.java:1613:in `each'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
-C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
-org/jruby/RubyMethod.java:116:in `call'
-file:/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/compass-app.jar!/hook/compass_patch.rb:57:in `perform'
-file:/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/compass-app.jar!/ui/tray.rb:385:in `clean_project'
-file:/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/compass-app.jar!/app.rb:198:in `get_stdout'
-file:/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/compass-app.jar!/ui/tray.rb:381:in `clean_project'
-file:/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/compass-app.jar!/app.rb:230:in `try'
-file:/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/compass-app.jar!/ui/tray.rb:380:in `clean_project'
-file:/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/compass-app.jar!/ui/tray.rb:373:in `clean_project_handler'
-anon_class315809246_2082487417.gen:13:in `handleEvent'
-file:/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/compass-app.jar!/ui/tray.rb:70:in `run'
-file:/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/compass-app.jar!/main.rb:129:in `run_tray'
-file:/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/compass-app.jar!/main.rb:145:in `(root)'
-org/jruby/RubyKernel.java:1071:in `require'
-/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/java/jruby-complete.jar!/META-INF/jruby.home/lib/ruby/shared/rubygems/core_ext/kernel_require.rb:1:in `(root)'
-/C:/Users/vinicius.reif/Desktop/compas/compass.app.windows.1.29/compass.app/lib/java/jruby-complete.jar!/META-INF/jruby.home/lib/ruby/shared/rubygems/core_ext/kernel_require.rb:54:in `require'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-color\".\A         on line 16 of C:/Users/vinicius.reif/Desktop/VBMaterial/sass/components/list.scss\A \A 11:         position: relative;\A 12:         padding: 10px 20px;\A 13:         border-bottom: 1px solid #E0E0E0;\A 14:         i {\A 15:             position: absolute;\A 16:             color: $primary-color;\A 17:             top: 7px;\A 18:             right: 17px;\A 19:             &.left {\A 20:                 left: 10px;\A 21:             }"; }
+/* line 3, ../../sass/components/list.scss */
+.list { border-radius: 4px; border: 1px solid #E0E0E0; overflow: hidden; }
+/* line 8, ../../sass/components/list.scss */
+.list a.list-item { display: block; }
+/* line 12, ../../sass/components/list.scss */
+.list .list-item { position: relative; padding: 10px 20px; border-bottom: 1px solid #E0E0E0; }
+/* line 16, ../../sass/components/list.scss */
+.list .list-item i { position: absolute; color: #6202EE; top: 7px; right: 17px; }
+/* line 21, ../../sass/components/list.scss */
+.list .list-item i.left { left: 10px; }
+/* line 24, ../../sass/components/list.scss */
+.list .list-item i.right { right: 17px; }
+/* line 29, ../../sass/components/list.scss */
+.list:last-child { border-bottom: none; }

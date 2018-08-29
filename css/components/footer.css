@@ -1,0 +1,27 @@
+/* line 27, ../../sass/components/footer.scss */
+.footer { padding: 18px 16px; width: 100%; background-color: #6202EE; color: white; }
+/* line 9, ../../sass/components/footer.scss */
+.footer .footer-content { color: #EEEEEE; font-size: 14px; line-height: 1.6; }
+
+/* line 31, ../../sass/components/footer.scss */
+.footer-copyright { background-color: #4400a8; padding: 10px 16px; font-size: 14px; color: #EEEEEE; }
+/* line 22, ../../sass/components/footer.scss */
+.footer-copyright .footer-copyright-text { color: #BDBDBD; }
+
+/* line 35, ../../sass/components/footer.scss */
+.footer-absolute { position: absolute; }
+
+/* line 39, ../../sass/components/footer.scss */
+.footer-fixed { position: fixed; }
+
+/* line 43, ../../sass/components/footer.scss */
+.footer-bottom { bottom: 0px; }
+
+/* line 47, ../../sass/components/footer.scss */
+.footer-link { color: #EEEEEE; }
+
+/* line 51, ../../sass/components/footer.scss */
+.body-flex { display: flex !important; min-height: 100vh !important; flex-direction: column !important; }
+
+/* line 57, ../../sass/components/footer.scss */
+.main-flex { flex: 1 0 auto !important; }
